@@ -11,9 +11,9 @@ contract HamNFT is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     
 	using Counters for Counters.Counter;
 
-	uint256 public goldPrice = 1 ether;
-	uint256 public silverPrice = 0.5 ether;
-	uint256 public bronzePrice = 0.1 ether;
+	uint256 public goldPrice = 0.01 ether;
+	uint256 public silverPrice = 0.005 ether;
+	uint256 public bronzePrice = 0.001 ether;
 
 	uint256 public goldSupply = 10;
 	uint256 public silverSupply = 20;
